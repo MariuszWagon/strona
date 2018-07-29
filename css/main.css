@@ -1,0 +1,55 @@
+h1,p, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Hanalei Fill';
+    color: #1f52a5;
+    font-size: 3.875rem;
+    margin-top: 20px;
+}
+
+p{
+    padding-left: 30px;
+    font-size: 5.200rem;
+    color: darkred;
+}
+
+.dupa{
+    margin-top: 40px;
+}
+
+#niedupa{
+    background-color: yellow;
+    width: 300px;
+    margin: auto;
+}
+
+body{
+    background-color: black;
+    background: url(http://hqwallpapersgalaxy.com/Uploads/28-6-2017/15647/thumb2-quarry-komatsu-730e-trucks-dumpers-special-machinery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nasza-nawigacja{
+    text-align: center;
+}
+
+.nasza-nawigacja ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: red;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.nasza-nawigacja ul li:hover{
+    transform: scale(1.2);
+    background-color: blue;
+}
