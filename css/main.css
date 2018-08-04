@@ -1,6 +1,12 @@
-h1,p, body {
+h1, body, p {
     margin: 0;
     padding: 0;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 h1
@@ -13,14 +19,14 @@ h1
 
 p{
     padding-left: 30px;
-    font-size: 3.200rem;
-    color: black; 
+    font-size: 3.200rem; 
 }
 
 .dupa{
     margin-top: 40px;
     color:white;
 }
+
 
 #niedupa{
     background-color: darkred;
@@ -30,10 +36,18 @@ p{
 
 body{
     background-color: black;
+
+    font-family: 'Lato', sans-serif;
+}
+
+.nasza-gora{
     background: url(https://best-wallpaper.net/wallpaper/3840x2160/1712/Quarry-dust-mining-rocks-conveyor_3840x2160.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Lato', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: sticky;
+    top: 0px;
 }
 
 .nasza-nawigacja{
@@ -48,9 +62,65 @@ body{
     color: white;
     cursor: pointer;
     transition: all 0.7s;
+    margin: 0;
+
 }
 
 .nasza-nawigacja ul li:hover{
     transform: scale(1.2);
     background-color: blue;
+    
+}
+
+.drugi-contener{
+background-color:darkblue;
+
+}
+.no-fajnie{
+background-color:hotpink;
+color: yellow;
+height: 200px;
+text-align: center;
+}
+
+.dziwny-kot{
+    background: url("../img/cat2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+      background-attachment: fixed;
+}
+
+.jeden{
+    height: 200px;
+    background-color: aqua;
+    margin-bottom: 200px;
+}
+
+.dwa{
+    height: 300px;
+    background-color: black;
+     margin-bottom: 200px;
+}
+
+.trzy{
+    height: 240px;
+    background-color: red;
+     margin-bottom: 200px;
+}
+.zdjecie-kota
+{width: 600px;margin:auto;display:block;
+
+margin-top: 40px;
+    border-radius: 200px 200px 200px 200px;
+    opacity: 0.9;
+    border: 5px solid red;
+
+}
+h2{
+text-align: center;
+}
+
+.drugi-contener img{
+    max-width: 50%; 
+    display: inline-block;
 }
