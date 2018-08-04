@@ -6,7 +6,6 @@ h1,p, body {
 h1
 {
     text-align: center;
-    font-family: 'Hanalei Fill';
     color: #1f52a5;
     font-size: 3.875rem;
     margin-top: 20px;
@@ -15,8 +14,7 @@ h1
 p{
     padding-left: 30px;
     font-size: 3.200rem;
-    color: black;
-    font-family: 'Hanalei Fill'; 
+    color: black; 
 }
 
 .dupa{
@@ -34,6 +32,7 @@ body{
     background: url(https://best-wallpaper.net/wallpaper/3840x2160/1712/Quarry-dust-mining-rocks-conveyor_3840x2160.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Lato', sans-serif;
 }
 
 .nasza-nawigacja{
