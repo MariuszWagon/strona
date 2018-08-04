@@ -84,33 +84,17 @@ text-align: center;
 }
 
 .dziwny-kot{
-    background: url("../img/cat2.jpg");
+    background: url("../img/VOLVO-Crawler-Excavator-EC210D.jpg");
     background-repeat: no-repeat;
     background-size: cover;
       background-attachment: fixed;
 }
 
-.jeden{
-    height: 200px;
-    background-color: aqua;
-    margin-bottom: 200px;
-}
 
-.dwa{
-    height: 300px;
-    background-color: black;
-     margin-bottom: 200px;
-}
-
-.trzy{
-    height: 240px;
-    background-color: red;
-     margin-bottom: 200px;
-}
 .zdjecie-kota
 {width: 600px;margin:auto;display:block;
 
-margin-top: 40px;
+margin-top: 118px;
     border-radius: 200px 200px 200px 200px;
     opacity: 0.9;
     border: 5px solid red;
@@ -123,4 +107,23 @@ text-align: center;
 .drugi-contener img{
     max-width: 50%; 
     display: inline-block;
+}
+
+.hahaha{
+    margin-top: 80px;
+}
+.jeden{
+   font-family:'Ruslan Display', cursive; 
+    margin-top: 40px;
+    text-align: center;
+    font-size: 70px;
+    color: #ff8800;
+   
+        
+}
+.tekst{
+    font-size: 60px;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #00b2ff;
+    text-align: center;
 }
