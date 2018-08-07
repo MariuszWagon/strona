@@ -197,11 +197,25 @@ text-align: center;
 
 .mini-banner2:hover .inner-mini-banner2{
     left: 0;
+    
+}
+.filmy{
+    color: blue;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    text-decoration: underline;
+    
+}
+.telefon{
+    width: 500px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
 }
 .tekst-zdj{
     color: white;
     font-size: 2.200rem;
     margin-left: 400px;
    
-}
     
+}
