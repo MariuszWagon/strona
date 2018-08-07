@@ -92,21 +92,21 @@ text-align: center;
 
 
 .zdjecie-kota
-{width: 600px;margin:auto;display:block;
-
+{width: 600px;
+    margin:auto;
+    display:block;
 margin-top: 118px;
     border-radius: 200px 200px 200px 200px;
     opacity: 0.9;
     border: 5px solid red;
+transition: all 1s;
+}
 
+.zdjecie-kota:hover{
+    border: 10px dashed blue;
 }
 h2{
 text-align: center;
-}
-
-.drugi-contener img{
-    max-width: 50%; 
-    display: inline-block;
 }
 
 .hahaha{
@@ -126,4 +126,75 @@ text-align: center;
     font-family: 'Do Hyeon', sans-serif;
     color: #00b2ff;
     text-align: center;
+}
+
+.zdziwiony-kotek{
+    background: url(../img/cat1.jpg);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transition: all  0.5s;
+}
+
+.zdziwiony-kotek:hover{
+     background: url(../img/cat3.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mini-banner{
+    width:300px;
+    height: 300px;
+    margin: auto;
+    margin-top:100px;
+    margin-bottom: 100px;
+    background: url(../img/cat3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.inner-mini-banner{
+    background-color: blue;
+    width:0;
+    height: 100%;
+    transition: all 0.5s;
+    opacity: 0.5;
+}
+
+.mini-banner:hover .inner-mini-banner{
+    width: 100%;
+}
+
+.mini-banner2{
+    width:300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top:100px;
+    margin-bottom: 100px;
+    background: url(../img/cat3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+}
+
+.inner-mini-banner2{
+    background-color: blue;
+    width:100%;
+    height: 100%;
+    transition: all 0.5s;
+    opacity: 0.5;
+    position: relative;
+    left: -300px;
+    text-align: center;
+    line-height: 300px;
+}
+
+.mini-banner2:hover .inner-mini-banner2{
+    left: 0;
 }
